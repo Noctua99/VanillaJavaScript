@@ -1,0 +1,1 @@
+document.write('Located in JavaScript js file<br>')
