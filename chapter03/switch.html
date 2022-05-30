@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let d = new Date();
+    let day = d.getDay();
+    let dayName;
+    switch (day) {
+        case 0:
+            dayName = "Sunday";
+            break;
+        case 1:
+            dayName = "Monday";
+            break;
+        case 2:
+            dayName = "Tuesday";
+            break;
+        case 3:
+            dayName = "Wednesday";
+            break;
+        case 4:
+            dayName = "Thursday";
+            break;
+        case 5:
+            dayName = "Friday";
+            break;
+        case 6:
+            dayName = "Saturday";
+            break;
+        default:
+            dayName = "";
+            break;
+    }
+    document.write(d + "<br>");
+    document.write(day + "<br>");
+    document.write(dayName);
+</script>
+</body>
+</html>
